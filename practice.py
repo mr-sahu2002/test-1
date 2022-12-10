@@ -1,7 +1,7 @@
 # x=[43,22,23,10]
 # n=len(x)
 
-# # 
+# #
 # print
 # print
 # print(range(n))
@@ -62,17 +62,60 @@ else:
     print("prime number-" + str(count))
 
 '''
-#list
-a=[1,2,3]
-x,y,z=a
+# #list
+# a=[1,2,3]
+# #tuples
+# b=(45,32,55)
+# #set
+# c={45,34,22}
 
-#tuples
-b=(45,32,55)
+# #unpack
+# x,y,z=b
+# print(type(a))
+# print(x)
+# print(y)
+# print(z)
 
-#set
-c={45,34,22}
-print(type(a))
-#set
-print(x)
-print(y)
-print(z)
+# #bin search
+# def bin_search(a,key):
+# N=int(input("enter the number of clubs?"))    #number of clubs
+# list=[]
+
+# for i in range(0,N):
+#     a=int(input())
+#     list.append(a)
+
+# print(max(list))
+
+###########roman to integer ################
+# string = input("enter the roman number:")
+# str = string.upper()
+# s = [*str]
+# a = len(s)
+# sum = 0
+
+# for i in range(a):
+#     if s[i] == 'I':
+#         sum += 1
+#     elif s[i] == 'V':
+#         sum += 5
+#     elif s[i] == 'X':
+#         sum += 10
+#     elif s[i] == 'L':
+#         sum += 50
+#     elif s[i] == 'C':
+#         sum += 100
+#     elif s[i] == 'D':
+#         sum += 500
+#     elif s[i] == 'M':
+#         sum += 1000
+# print(sum)
+
+a = [4, 3, 5, 3, 2, 5, 6]
+b = []
+n = len(a)
+
+for i in range(n-1, -1, -1):
+    b.append(a[i])
+
+print(b)
